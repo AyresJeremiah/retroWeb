@@ -1,5 +1,5 @@
 <?php 
-$path = "/home/jeremiah/RetroPie/roms";
+$path = "/home/retro/RetroPie/roms";
 $directories = glob($path . '/*' , GLOB_ONLYDIR); 
 $consoleOptions="";
 for($i=0;$i<count($directories);$i++){
